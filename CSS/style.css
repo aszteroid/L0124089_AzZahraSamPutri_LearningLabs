@@ -36,10 +36,9 @@ a {
     margin: 0 auto;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1200px) {
     .main-container {
         width: 90%;
-        padding: 0 10px;
     }
 }
 
@@ -68,22 +67,13 @@ a {
 .nav {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    padding: 2rem 0;
 }
 
 .nav ul {
     list-style: none;
     display: flex;
-    flex-direction: column;
     gap: 3rem;
-    position: fixed;
-    top: 0;
-    left: -100%; 
-    transition: left 0.3s;   
-}
-
-.nav.active ul {
-    left: 0;
 }
 
 .logo {
@@ -101,22 +91,31 @@ nav ul li{
     color:cornflowerblue;
 }
 
-.hero{
-    height: 720 px;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+.burger div {
+    width: 25px;
+    height: 2px;
+    background-color:cadetblue;
+    margin: 7px;
+    transition: all 0.3s;
 }
 
-@media screen and (min-width: 768px) {
-    .hero {
-        flex-direction: row; /* Arahkan kembali ke row untuk layar lebih besar */
-    }
+.burger {
+    display: none;
+    z-index: 99;
+    position: fixed;
+    top: 33px;
+    right: 35px;
+}
+
+#hero{
+    height: 720 px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
 }
 
 .hero-name {
-    font-size: 3vw;
+    font-size: 3rem;
     font-weight: 700;
     margin: 0.8rem 0 1rem;
     align-items:center;
@@ -128,8 +127,8 @@ nav ul li{
 }
 
 .hero-right img{
-    width: 100%;
-    height:auto;
+    width: 80%;
+    height:fit-content;
     margin: center;
 }
 
