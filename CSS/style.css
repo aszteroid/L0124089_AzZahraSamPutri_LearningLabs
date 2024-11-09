@@ -36,9 +36,12 @@ a {
     margin: 0 auto;
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width: 768px) {
     .main-container {
         width: 90%;
+    }
+    .hero-image img {
+        max-width: 300px;
     }
 }
 
