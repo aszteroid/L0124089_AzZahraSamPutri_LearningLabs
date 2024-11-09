@@ -12,3 +12,6 @@ The Blue City adalah sebuah website yang memperkenalkan pesona kota Chefchaouen 
 2. CSS3: Styling dan layout, termasuk responsivitas untuk tampilan di berbagai perangkat.
 3. JavaScript: Mengatur validasi form dan interaksi pengguna di halaman feedback.
 4. Google Fonts: Menambahkan font Roboto Slab untuk tampilan yang modern dan estetik.
+
+# Website
+Akses website [The Blue City](https://aszteroid.github.io/L0124089_AzZahraSamPutri_LearningLabs/)
