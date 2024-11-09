@@ -241,11 +241,11 @@ footer p {
 }
 
 .city-aside {
-    background-color: lightblue;
+    background-color: rgb(162, 199, 255);
     padding: 1.5rem;
     border-radius: 20px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    border: 2px solid #8da7ff;
+    border: 2px solid #3f66db;
     flex: 1; 
     max-width: 300px; 
 }
