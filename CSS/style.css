@@ -36,10 +36,9 @@ a {
     margin: 0 auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width:1200px) {
     .main-container {
         width: 90%;
-        padding: 0 10px;
     }
 }
 
@@ -52,12 +51,11 @@ a {
     width: fit-content;
     font-weight: 400;
     font-size: 1.2rem;
-    margin-bottom: 0.5rem;
 
 }
 
 .pre-title:before {
-    content:""
+    content:"";
     width: 30px;
     height: 1px;
     position:absolute;
@@ -70,7 +68,6 @@ a {
     display: flex;
     justify-content: space-between;
     padding: 2rem 0;
-    flex-wrap: wrap;
 }
 
 .nav ul {
@@ -87,7 +84,7 @@ a {
 }
 
 .logo a{
-    color: blue;
+    color:blue;
 }
 
 nav ul li{
@@ -118,7 +115,7 @@ nav ul li{
 }
 
 .hero-name {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 700;
     margin: 0.8rem 0 1rem;
     align-items:center;
@@ -130,11 +127,9 @@ nav ul li{
 }
 
 .hero-right img{
-    width: 100%;
+    width: 80%;
     height:fit-content;
     margin: center;
-    max-width: 400px;
-    border-radius: 8px;
 }
 
 .hero-right {
@@ -182,20 +177,13 @@ nav ul li{
 footer {
     color: white;
     text-align: center;
-    padding: 1rem 0;
-    position: relative;
+    padding: 1rem;
+    position: fixed;
     bottom: 0;
     width: 100%;
     display: flex;
     justify-content: center; 
     align-items: center; 
-}
-
-@media screen and (max-width: 768px) {
-    footer {
-        padding: 1.5rem 0;      
-        font-size: 1rem;        
-    }
 }
 
 footer p {
