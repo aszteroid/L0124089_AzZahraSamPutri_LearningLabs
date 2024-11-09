@@ -229,10 +229,9 @@ footer p {
     text-align: center;
 }
 
-/* Container for main content and aside */
 .content-layout {
     display: flex;
-    gap: 2rem; /* Space between main content and aside */
+    gap: 2rem; 
 }
 
 .city-content {
@@ -283,7 +282,8 @@ footer p {
 }
 
 .food-card {
-    background-color: #f9f1e7;
+    background-color: #e3f2fd;
+    border-color: #3f66db;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -302,7 +302,7 @@ footer p {
 
 .food-card h2 {
     font-size: 1.5rem;
-    color: #8b572a;
+    color: #2a4d69;
     text-align: center;
     margin-top: 0.75rem;
 }
