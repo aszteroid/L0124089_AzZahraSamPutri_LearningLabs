@@ -1,5 +1,5 @@
 # The Blue City 🏙
-The Blue City adalah sebuah website yang memperkenalkan pesona kota Chefchaouen di Maroko, yang terkenal akan keindahan arsitekturnya yang didominasi oleh warna biru. Melalui website ini, pengguna dapat menjelajahi budaya, makanan khas, dan destinasi wisata unik di kota yang sering disebut "The Blue City" ini.
+The Blue City adalah sebuah website yang memperkenalkan pesona kota Chefchaouen di Maroko, yang terkenal akan keindahan arsitekturnya yang didominasi oleh warna biru. Melalui website ini, pengguna dapat menjelajahi destinasi wisata unik dan makanan khas di kota yang sering disebut "The Blue City" ini.
 
 # Fitur ✨
 1. Halaman Utama : Halaman utama menyambut pengguna mengenai Chefchaouen.
