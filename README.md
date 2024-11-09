@@ -1,4 +1,4 @@
-# The Blue City
+# The Blue City 🏙
 The Blue City adalah sebuah website yang memperkenalkan pesona kota Chefchaouen di Maroko, yang terkenal akan keindahan arsitekturnya yang didominasi oleh warna biru. Melalui website ini, pengguna dapat menjelajahi budaya, makanan khas, dan destinasi wisata unik di kota yang sering disebut "The Blue City" ini.
 
 # Fitur ✨
@@ -13,5 +13,5 @@ The Blue City adalah sebuah website yang memperkenalkan pesona kota Chefchaouen 
 3. JavaScript: Mengatur validasi form dan interaksi pengguna di halaman feedback.
 4. Google Fonts: Menambahkan font Roboto Slab untuk tampilan yang modern dan estetik.
 
-# Website
+# Website 🔮
 Akses website [The Blue City](https://aszteroid.github.io/L0124089_AzZahraSamPutri_LearningLabs/)
