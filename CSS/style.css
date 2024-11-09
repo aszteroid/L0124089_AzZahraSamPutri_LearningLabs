@@ -229,37 +229,54 @@ footer p {
     text-align: center;
 }
 
+/* Container for main content and aside */
+.content-layout {
+    display: flex;
+    gap: 2rem; /* Space between main content and aside */
+}
+
+/* Main content styling */
+.city-content {
+    flex: 2;
+}
+
+/* Aside styling with bubble effect */
 .city-aside {
-    background-color: linear-gradient(145deg, #dfe7fd, #b3cde8);         
+    background-color: #dfe7fd;
     padding: 1.5rem;
-    margin: 2rem 0;
-    border-radius: 50px;              
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
-    border: 2px solid #8da7ff;        
-    position: relative;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border: 2px solid #8da7ff;
+    flex: 1; /* Smaller width than main content */
+    max-width: 300px; /* Adjust as needed */
 }
 
 .city-aside h2 {
     color: #2a4d69;
     text-align: center;
-    margin-bottom: 1rem;
 }
 
 .city-aside ul {
     list-style-type: none;
     padding: 0;
-    color: #555;
 }
 
 .city-aside li {
     margin: 0.5rem 0;
+    color: #555;
 }
-
 .city-aside li strong {
     color: #1d3557;
+}
+
+/* Responsive layout for smaller screens */
+@media screen and (max-width: 768px) {
+    .content-layout {
+        flex-direction: column; /* Stacks aside below main content on small screens */
+    }
+    .city-aside {
+        max-width: 100%;
+    }
 }
 
 .food-grid {
