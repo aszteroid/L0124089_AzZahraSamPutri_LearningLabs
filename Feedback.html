@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback - Chefchaouen</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body bgcolor="caf0f8">
+    <header>
+        <div class="main-container">
+            <div class="nav">
+                <div class="logo">
+                    <a href="Homepage.html">Home</a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="City.html">City</a></li>
+                        <li><a href="Foodies.html">Foodies</a></li>
+                        <li><a href="Feedback.html">Feedback</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="feedback">
+        <div class="main-container">
+            <h1 class="section-title">We'd Love to Hear from You!</h1>
+            <p class="feedback-description">
+                Please let us know about your experience in Chefchaouen or any suggestions you have for us^^
+            </p>
+            
+            <form id="feedbackForm" class="feedback-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Feedback:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Submit Feedback</button>
+            </form>
+            <p id="confirmationMessage" class="confirmation-message"></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Learning Labs 2024 - L0124089 - Az Zahra Sam Putri</p>
+    </footer>
+    <script src="/JS/feedback.js"></script>
+</body>
+</html>
