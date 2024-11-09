@@ -240,15 +240,14 @@ footer p {
     flex: 2;
 }
 
-/* Aside styling with bubble effect */
 .city-aside {
-    background-color: #dfe7fd;
+    background-color: lightblue;
     padding: 1.5rem;
     border-radius: 20px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     border: 2px solid #8da7ff;
-    flex: 1; /* Smaller width than main content */
-    max-width: 300px; /* Adjust as needed */
+    flex: 1; 
+    max-width: 300px; 
 }
 
 .city-aside h2 {
@@ -269,10 +268,9 @@ footer p {
     color: #1d3557;
 }
 
-/* Responsive layout for smaller screens */
 @media screen and (max-width: 768px) {
     .content-layout {
-        flex-direction: column; /* Stacks aside below main content on small screens */
+        flex-direction: column; 
     }
     .city-aside {
         max-width: 100%;
