@@ -68,13 +68,22 @@ a {
 .nav {
     display: flex;
     justify-content: space-between;
-    padding: 2rem 0;
+    flex-wrap: wrap;
 }
 
 .nav ul {
     list-style: none;
     display: flex;
+    flex-direction: column;
     gap: 3rem;
+    position: fixed;
+    top: 0;
+    left: -100%; 
+    transition: left 0.3s;   
+}
+
+.nav.active ul {
+    left: 0;
 }
 
 .logo {
@@ -101,22 +110,30 @@ nav ul li{
 }
 
 .burger {
-    display: none;
+    display: block;
     z-index: 99;
     position: fixed;
     top: 33px;
     right: 35px;
+    cursor: pointer;
 }
 
-#hero{
+.hero{
     height: 720 px;
-    display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        flex-direction: row; /* Arahkan kembali ke row untuk layar lebih besar */
+    }
 }
 
 .hero-name {
-    font-size: 2rem;
+    font-size: 3vw;
     font-weight: 700;
     margin: 0.8rem 0 1rem;
     align-items:center;
@@ -128,8 +145,8 @@ nav ul li{
 }
 
 .hero-right img{
-    width: 80%;
-    height:fit-content;
+    width: 100%;
+    height:auto;
     margin: center;
 }
 
