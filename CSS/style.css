@@ -235,13 +235,12 @@ footer p {
     gap: 2rem; /* Space between main content and aside */
 }
 
-/* Main content styling */
 .city-content {
     flex: 2;
 }
 
 .city-aside {
-    background-color: rgb(162, 199, 255);
+    background-color: #e3f2fd;
     padding: 1.5rem;
     border-radius: 20px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
