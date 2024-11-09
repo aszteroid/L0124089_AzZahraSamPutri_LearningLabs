@@ -1,2 +1,14 @@
 # The Blue City
-Website ini merupakan website yang menampilkan tempat-tempat yang harus dikunjungi dan makanan-makanan yang harus dicoba ketika berada di Kota Chefchaouen. Untuk mengakses halaman kota-kota yang harus dikunjungi, cukup menekan tulisan City yang berada pada bagian kanan atas dari halaman utama website. Kemudian, untuk mengakses rekomendasi makanan, cukup menekan tulisan Foodies yang berada pada bagian kanan atas dari halaman utama website.
+The Blue City adalah sebuah website yang memperkenalkan pesona kota Chefchaouen di Maroko, yang terkenal akan keindahan arsitekturnya yang didominasi oleh warna biru. Melalui website ini, pengguna dapat menjelajahi budaya, makanan khas, dan destinasi wisata unik di kota yang sering disebut "Kota Biru" ini.
+
+#Fitur Utama ✨
+1. Halaman Utama (Homepage): Halaman utama menyambut pengguna dengan visual dan informasi ringkas mengenai Chefchaouen, termasuk sejarah singkat dan daya tarik kota.
+2. Halaman City: Menyajikan informasi tentang tempat-tempat wisata populer di Chefchaouen yang wajib dikunjungi. Setiap destinasi disertai deskripsi dan foto yang menarik untuk menggambarkan suasana kota.
+3. Halaman Foodies: Rekomendasi makanan lokal khas Chefchaouen yang tidak boleh dilewatkan. Setiap makanan dilengkapi dengan deskripsi untuk memberikan gambaran tentang cita rasa dan keunikannya.
+4. Halaman Feedback: Form umpan balik yang memungkinkan pengunjung untuk memberikan masukan atau komentar. Halaman ini menggunakan JavaScript untuk validasi data dan memberikan pengalaman yang interaktif bagi pengguna.
+
+#Teknologi yang Digunakan 💻
+HTML5: Struktur halaman.
+CSS3: Styling dan layout, termasuk responsivitas untuk tampilan di berbagai perangkat.
+JavaScript: Mengatur validasi form dan interaksi pengguna di halaman feedback.
+Google Fonts: Menambahkan font Roboto Slab untuk tampilan yang modern dan estetik.
