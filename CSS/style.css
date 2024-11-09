@@ -52,11 +52,12 @@ a {
     width: fit-content;
     font-weight: 400;
     font-size: 1.2rem;
+    margin-bottom: 0.5rem;
 
 }
 
 .pre-title:before {
-    content:"";
+    content:""
     width: 30px;
     height: 1px;
     position:absolute;
@@ -129,9 +130,11 @@ nav ul li{
 }
 
 .hero-right img{
-    width: 80%;
+    width: 100%;
     height:fit-content;
     margin: center;
+    max-width: 400px;
+    border-radius: 8px;
 }
 
 .hero-right {
@@ -139,16 +142,60 @@ nav ul li{
     justify-content: center;
 }
 
+@media screen and (max-width: 768px) {
+    #hero {
+        flex-direction: column; /* Membuat konten dan gambar vertikal */
+        text-align: center;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.8rem;
+    }
+
+    .hero-description {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.5rem;
+    }
+
+    .hero-description {
+        font-size: 0.9rem;
+    }
+
+    .hero-image img {
+        max-width: 300px;
+    }
+}
+
 footer {
     color: white;
     text-align: center;
-    padding: 1rem;
-    position: fixed;
+    padding: 1rem 0;
+    position: relative;
     bottom: 0;
-    width: 50%;
+    width: 100%;
     display: flex;
     justify-content: center; 
     align-items: center; 
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        padding: 1.5rem 0;      
+        font-size: 1rem;        
+    }
 }
 
 footer p {
