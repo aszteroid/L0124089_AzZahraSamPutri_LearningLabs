@@ -107,7 +107,7 @@ nav ul li{
     right: 35px;
 }
 
-.hero{
+#hero{
     height: 720 px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -137,50 +137,13 @@ nav ul li{
     justify-content: center;
 }
 
-@media screen and (max-width: 768px) {
-    #hero {
-        flex-direction: column; /* Membuat konten dan gambar vertikal */
-        text-align: center;
-    }
-
-    .hero-title {
-        font-size: 2.5rem;
-    }
-
-    .hero-subtitle {
-        font-size: 1.8rem;
-    }
-
-    .hero-description {
-        font-size: 1rem;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .hero-title {
-        font-size: 2rem;
-    }
-
-    .hero-subtitle {
-        font-size: 1.5rem;
-    }
-
-    .hero-description {
-        font-size: 0.9rem;
-    }
-
-    .hero-image img {
-        max-width: 300px;
-    }
-}
-
 footer {
     color: white;
     text-align: center;
     padding: 1rem;
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 50%;
     display: flex;
     justify-content: center; 
     align-items: center; 
