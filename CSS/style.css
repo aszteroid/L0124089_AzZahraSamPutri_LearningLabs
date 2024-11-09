@@ -127,9 +127,10 @@ nav ul li{
 }
 
 .hero-right img{
-    width: 80%;
+    width: 100%;
     height:fit-content;
     margin: center;
+    border-radius: 8px;
 }
 
 .hero-right {
