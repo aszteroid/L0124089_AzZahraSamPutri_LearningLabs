@@ -11,12 +11,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (name && email && message) {
             confirmationMessage.textContent = `Thank you, ${name}! Your feedback has been submitted.`;
-            confirmationMessage.style.color = "#7398de";
+            confirmationMessage.style.color = "blue";
 
             feedbackForm.reset();
         } else {
             confirmationMessage.textContent = "Please fill in all fields.";
-            confirmationMessage.style.color = "#7398de";
+            confirmationMessage.style.color = "blue";
         }
     });
 });
