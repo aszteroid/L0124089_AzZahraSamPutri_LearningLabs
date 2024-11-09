@@ -36,9 +36,10 @@ a {
     margin: 0 auto;
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width: 768px) {
     .main-container {
         width: 90%;
+        padding: 0 10px;
     }
 }
 
@@ -68,6 +69,7 @@ a {
     display: flex;
     justify-content: space-between;
     padding: 2rem 0;
+    flex-wrap: wrap;
 }
 
 .nav ul {
@@ -84,7 +86,7 @@ a {
 }
 
 .logo a{
-    color:blue;
+    color: blue;
 }
 
 nav ul li{
@@ -107,7 +109,7 @@ nav ul li{
     right: 35px;
 }
 
-#hero{
+.hero{
     height: 720 px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -115,7 +117,7 @@ nav ul li{
 }
 
 .hero-name {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 700;
     margin: 0.8rem 0 1rem;
     align-items:center;
