@@ -101,23 +101,6 @@ nav ul li{
     color:cornflowerblue;
 }
 
-.burger div {
-    width: 25px;
-    height: 2px;
-    background-color:cadetblue;
-    margin: 7px;
-    transition: all 0.3s;
-}
-
-.burger {
-    display: block;
-    z-index: 99;
-    position: fixed;
-    top: 33px;
-    right: 35px;
-    cursor: pointer;
-}
-
 .hero{
     height: 720 px;
     grid-template-columns: 1fr 1fr;
